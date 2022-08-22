@@ -1,6 +1,7 @@
 @import "variables";
 @import "formulario";
 @import "footer";
+@import "navbar";
 
 
 
@@ -12,7 +13,15 @@
     text-align: center;
 }   
 
+.nosotros img{
+    width: 100%;
+  }
 
+  .collapse {
+    &:not(.show) {
+      display: none;
+    }
+  }
 
 
 /*Condicionales*/ 
@@ -55,6 +64,8 @@
 
 
  }
+
+ 
    
     
  
